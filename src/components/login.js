@@ -18,7 +18,7 @@ const Login = () => {
   const handleChange = (e) => {
     setInputs((prevState) => ({
       ...prevState,
-      [e.target.email]: e.target.value,
+      [e.target.name]: e.target.value,
     }));
   };
   const sendRequest = async (type = "login") => {
